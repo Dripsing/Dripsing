@@ -126,7 +126,7 @@ function drawBackground(ctx) {
         ctx.fillRect(0, startY + imgHeight, width, (height - startY));
     }
     let fontSize = height / 20;
-    let str1 = "2023";
+    let str1 = "2024";
     //let offPos = new Vector(0, Math.tan(new Date().getTime() / 1000) * 30);
     let offPos = new Vector(0, Math.sin(new Date().getTime() / 1000) * 30);
     let fontPos1 = new Vector(
@@ -139,7 +139,7 @@ function drawBackground(ctx) {
         fontPos1.x, fontPos1.y,
         "rgba(255,255,0,1)", fontSize, "orbitron",
         0, 0, 0);
-    let str2 = "祝您新年快乐 !";
+    let str2 = "祝您新年快乐 ";
     let fontPos2 = new Vector(
         width / 2 - str2.length * fontSize * 0.3 + offPos.x,
         height / 3 + fontSize + offPos.y
