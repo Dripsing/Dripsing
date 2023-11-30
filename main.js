@@ -139,22 +139,13 @@ function drawBackground(ctx) {
         fontPos1.x, fontPos1.y,
         "rgba(255,255,0,1)", fontSize, "orbitron",
         0, 0, 0);
-    let str2 = "祝您新年快乐! ";
+    let str2 = "祝您新年快乐！";
     let fontPos2 = new Vector(
         width / 2 - str2.length * fontSize * 0.3 + offPos.x,
         height / 3 + fontSize + offPos.y
     );
     drawString(ctx, str2,
         fontPos2.x, fontPos2.y,
-        "rgba(255,255,0,1)", fontSize, "orbitron",
-        0, 0, 0);
-    let str3 = "身体健康  万事如意 ";
-    let fontPos3= new Vector(
-        width / 2 - str2.length * fontSize * 0.3 + offPos.x,
-        height / 3 + fontSize + offPos.y
-    );
-    drawString(ctx, str3,
-        fontPos3.x, fontPos3.y,
         "rgba(255,255,0,1)", fontSize, "orbitron",
         0, 0, 0);
     ctx.shadowBlur = 0;
